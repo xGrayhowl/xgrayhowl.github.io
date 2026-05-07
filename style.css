@@ -363,3 +363,12 @@ body.dark-mode .theme-toggle {
     background: #f9fafb;
     color: #111827;
 }
+
+
+.skills span {
+    transition: all ease 0.3s;
+}
+.skills span:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.08);
+}

@@ -2,205 +2,206 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Kamil Herman | IT / Cybersecurity</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamil Herman | IT / Networking / Cybersecurity</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <button id="themeToggle" class="theme-toggle">🌙 Dark Mode</button>
 
-        <header>
-        <h1>Kamil Herman</h1>
-        <p>IT / Networking / Cybersecurity</p>            
+    <div class="container">
+        <header class="hero">
+            <h1>Kamil Herman</h1>
+            <p class="subtitle">IT / Networking / Cybersecurity</p>
+            <p class="intro">
+                Absolwent technikum informatycznego z praktycznym doświadczeniem w administracji systemami,
+                sieciach komputerowych oraz rozwoju własnego HomeLab.
+            </p>
+            <div class="contact-bar">
+                <a href="mailto:k.herman2020@outlook.com">Email</a>
+                <a href="https://github.com/xGrayhowl" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/kamil-herman-4585b93a1/" target="_blank">LinkedIn</a>
+            </div>
         </header>
 
-        <div class="box">
+        <section class="card">
             <h2>Profil zawodowy</h2>
-
             <p>
-                Uczeń technikum informatycznego z praktycznym doświadczeniem w pracy
-                z systemami Microsoft Windows, Linux i MacOS, oraz praktyczną znajomością
-                sieci komputerowych. Tworzę i rozwijam własne środowisko HomeLab, w którym
-                konfiguruje usługi sieciowe, pracuje z routingiem i NAT oraz diagnozuję
-                problemy techniczne. Interesuję się administracją systemów oraz cyberbezpieczeństwem.
+                Specjalizuję się w systemach Windows, Linux, podstawach administracji serwerowej,
+                diagnostyce infrastruktury oraz cyberbezpieczeństwie. Rozwijam praktyczne umiejętności
+                poprzez projekty własne, środowisko laboratoryjne oraz doświadczenie zawodowe.
             </p>
-        </div>
+        </section>
 
-        <div class="box">
-            <h2>Umiejętności</h2>
+        <section class="card">
+            <h2>Kluczowe umiejętności</h2>
+            <div class="skills">
+                <span>Linux</span>
+                <span>Windows</span>
+                <span>Networking</span>
+                <span>Routing / NAT</span>
+                <span>Windows Server</span>
+                <span>Apache / Nginx</span>
+                <span>Proxmox</span>
+                <span>Cybersecurity</span>
+                <span>SSH</span>
+                <span>3D Printing</span>
+            </div>
+        </section>
 
-            <ul>
-                <li>Linux (administracja, terminal, konfiguracja)</li>
-                <li>Windows (konfiguracja, diagnostyka, rozwiązywanie problemów)</li>
-                <li>MacOS</li>
-                <li>Administracia sieciami komputerowymi (adresacja IP i podsieci; NAT, Routing; konfiguracja sieci LAN; diagnostyka sieci; SSH i zdalny dostęp)</li>
-                <li>Administracja serwerami</li>
-                <li>Serwery WWW (konfiguracja - Apache/Nginx, hostowanie usług lokalnych)</li>
-                <li>Pakiet Microsoft Office</li>
-                <li>Adobe Photoshop</li>
-                <li>Adobe Premiere Pro</li>
-                <li>Druk 3D (obsluga drukarki, przygotowywanie modeli)</li>
-            </ul>
-        </div>
+        <section class="card">
+            <h2>Doświadczenie</h2>
 
-        <div class="box">
-            <h2>Certyfikaty</h2>
+            <div class="timeline-item">
+                <h3>Administrator witryny internetowej (Wolontariat)</h3>
+                <p class="meta">10.2024 – 04.2026 | ZSZ nr 1 w Brzegu</p>
+                <ul>
+                    <li>Zarządzanie treściami strony internetowej</li>
+                    <li>Publikacja materiałów i wydarzeń</li>
+                    <li>Utrzymanie jakości publikowanych informacji</li>
+                </ul>
+            </div>
 
-            <div class="certGrid">
+            <div class="timeline-item">
+                <h3>Praktykant</h3>
+                <p class="meta">05.2025 | Mikron Granatowski Macioszek sp. j.</p>
+                <ul>
+                    <li>Konfiguracja Windows / Windows Server</li>
+                    <li>RAID, diagnostyka sprzętu, drukarki</li>
+                    <li>Przygotowanie stanowisk komputerowych</li>
+                </ul>
+            </div>
 
-                <div class="certItem">
-                    <span>Operating Systems Basics</span>
-                    <a href="Certyfikaty/SystemyOperacyjne/OS Basics.pdf" target="_blank" class="certLinkSingle">PDF (EN)</a>
-                </div>
+            <div class="timeline-item">
+                <h3>Serwisant sprzętu elektronicznego</h3>
+                <p class="meta">07.2024 – 08.2024 | TYRS IT/MEDIA</p>
+                <ul>
+                    <li>Proxmox i Home Assistant</li>
+                    <li>Diagnostyka urządzeń sieciowych</li>
+                    <li>Przygotowanie sprzętu do wdrożeń</li>
+                </ul>
+            </div>
 
-                <div class="certItem">
-                    <span>Python Essentials 1</span>
-                    <a href="Certyfikaty/Programowanie/Python Essentials 1.pdf" target="_blank" class="certLinkSingle">PDF (EN)</a>
-                </div>
+            <div class="timeline-item">
+                <h3>Praktykant</h3>
+                <p class="meta">11.2023 | TYRS IT/MEDIA</p>
+                <ul>
+                    <li>Proxmox i Home Assistant</li>
+                    <li>Diagnostyka urządzeń sieciowych</li>
+                    <li>Przygotowanie sprzętu do wdrożeń</li>
+                </ul>
+            </div>
+        </section>
 
-                <div class="certItem">
-                    <span>Enumeracja Sieci Active Directory</span>
-                    <div class="certLinks">
-                        <a href="Certyfikaty/Sekurak/EN/ACTIVE DIRECTORY NETWORK ENUMERATION.pdf" target="_blank" class="certLinkEN">PDF (EN)</a>
-                        <a href="Certyfikaty/Sekurak/PL/ENUMERACJA SIECI ACTIVE DIRECTORY.pdf" target="_blank" class="certLinkPL">PDF (PL)</a>
-                    </div>
-                </div>
+<section class="card">
+    <h2>Certyfikaty</h2>
 
-                <div class="certItem">
-                    <span>Wyszukiwanie i Eksploitacja Nieprawidłowości w Politykach Dostępu</span>
-                    <div class="certLinks">
-                        <a href="Certyfikaty/Sekurak/EN/FINDING AND EXPLOITING IRREGULARITIES AN ACCESS POLICIES.pdf" target="_blank" class="certLinkEN">PDF (EN)</a>
-                        <a href="Certyfikaty/Sekurak/PL/WYSZUKIWANIE I EKSPLOITACJA NIEPRAWIDŁOWOŚCI W POLITYKACH DOSTĘPU.pdf" target="_blank" class="certLinkPL">PDF (PL)</a>
-                    </div>
-                </div>
-            
-                <div class="certItem">
-                    <span>Hardening Serwera WWW</span>
-                    <div class="certLinks">
-                        <a href="Certyfikaty/Sekurak/EN/HARDENING A WEB SERVER.pdf" target="_blank" class="certLinkEN">PDF (EN)</a>
-                        <a href="Certyfikaty/Sekurak/PL/HARDENING SERWERA WWW.pdf" target="_blank" class="certLinkPL">PDF (PL)</a>
-                    </div>
-                </div>
+    <div class="cert-grid">
 
-                <div class="certItem">
-                    <span>Zabbix w akcji</span>
-                    <div class="certLinks">
-                        <a href="Certyfikaty/Sekurak/EN/ZABBIX IN ACTION.pdf" target="_blank" class="certLinkEN">PDF (EN)</a>
-                        <a href="Certyfikaty/Sekurak/PL/ZABBIX W AKCJI.pdf" target="_blank" class="certLinkPL">PDF (PL)</a>
-                    </div>
-                </div>
+        <div class="cert-card">
+            <span class="cert-badge">Cisco</span>
+            <h3>Operating Systems Basics</h3>
+            <p>Podstawy systemów operacyjnych oraz administracji.</p>
+            <div class="cert-links">
+                <a href="Certyfikaty/SystemyOperacyjne/OS Basics.pdf" target="_blank">PDF</a>
             </div>
         </div>
 
-        <div class="box">
-            <h2>Wykształcenie</h2>
-
-            <p><strong>09.2021 - 04.2026</strong> - Zespół Szkół Zawodowych nr 1 w Brzegu
-            <br>Specjalizacja: Technik informatyk - wykształcenie zawodowe</p>
+        <div class="cert-card">
+            <span class="cert-badge">Python</span>
+            <h3>Python Essentials 1</h3>
+            <p>Podstawy programowania i pracy z Pythonem.</p>
+            <div class="cert-links">
+                <a href="Certyfikaty/Programowanie/Python Essentials 1.pdf" target="_blank">PDF</a>
+            </div>
         </div>
 
-        <div class="box">
-            <h2>Doświadczenie</h2>
-
-            <section class="doswiadczenie">
-            <p><strong>10.2024 - 04.2026</strong> - Wolontariat, Zespół Szkół Zawodowych nr 1 w Brzegu
-            <br><em>Stanowisko:</em> Administrator witryny internetowej</em></p>
-
-            <ul>
-                <li>Zarządzanie i aktualizacja treści na stronie internetowej</li>
-                <li>Publikacja informacji i materiałów w dedykowanej sekcji</li>
-                <li>Dbanie o poprawność i czytelność publikowanych treści</li>
-                <li>Współpraca przy organizacji i publikacji wydarzeń szkolnych</li>
-            </ul>
-            </section>
-
-            <section class="doswiadczenie">
-            <p><strong>01.05.2025 - 31.05.2025</strong> - Mikron Granatowski Macioszek sp. j.
-            <br><em>Stanowisko:</em> Praktykant</p>
-
-            <ul>
-                <li>Instalacja i konfiguracja systemu Windows wraz ze sterownikami</li>
-                <li>Weryfikacja poprawności działania sprzętu komputerowego</li>
-                <li>Diagnostyka i naprawa drukarek</li>
-                <li>Składanie i konfiguracja zestawów komputerowych</li>
-                <li>Przygotowywanie stanowisk komputerowych do pracy</li>
-                <li>Konfiguracja macierzy RAID (tworzenie i zarządzanie)</li>
-                <li>Podstawowa konfiguracja systemu Windows Server</li>
-                <li>Konfiguracja klientów pocztowych Thunderbird oraz Outlook, przenoszenie wiadomości między nimi</li>
-            </ul>
-            </section>
-
-            <section class="doswiadczenie">
-            <p><strong>01.07.2024 - 19.08.2024</strong> - Tyrs IT/MEDIA
-            <br><em>Stanowisko:</em> Serwisant sprzętu elektronicznego</p>
-
-            <ul>
-                <li>Instalacja i konfiguracja środowiska wirtualizacji Proxmox wraz z Home Assistant</li>
-                <li>Pakowanie i przygotowywanie urządzeń sieciowych (switche, access pointy Cisco) do wysyłki</li>
-                <li>Diagnostyka i naprawa switchy oraz access pointów</li>
-                <li>Weryfikacja i testowanie sprzętu po zwrotach</li>
-                <li>Wsparcie w przygotowaniu sprzętu do wdrożeń i sieci produkcyjnej</li>
-            </ul>
-            </section>
-
-            <section class="doswiadczenie">
-            <p><strong>01.11.2023 - 30.11.2023</strong> - TYRS IT/MEDIA
-            <br><em>Stanowisko:</em> Praktykant</p>
-
-            <ul>
-                <li>Instalacja i konfiguracja środowiska wirtualizacji Proxmox wraz z Home Assistant</li>
-                <li>Instalacja i konfiguracja systemów Windows oraz Linux</li>
-                <li>Weryfikacja i testowanie sprzętu komputerowego</li>
-                <li>Przygotowanie sprzętu do wdrożeń i pracy w sieci</li>
-                <li>Wsparcie przy zadaniach administracyjnych i konfiguracji systemow</li>
-            </ul>
-            </section>
+        <div class="cert-card">
+            <span class="cert-badge">Sekurak</span>
+            <h3>Enumeracja Sieci Active Directory</h3>
+            <p>Analiza i bezpieczeństwo środowisk AD.</p>
+            <div class="cert-links">
+                <a href="Certyfikaty/Sekurak/EN/ACTIVE DIRECTORY NETWORK ENUMERATION.pdf" target="_blank">English</a>
+                <a href="Certyfikaty/Sekurak/PL/ENUMERACJA SIECI ACTIVE DIRECTORY.pdf" target="_blank">Polski</a>
+            </div>
         </div>
 
-        <div class="box">
-            <h2>GitHub - Projekty</h2>
-            <p><a href="https://github.com/xGrayhowl/HomeLabInfrastructureAndSecurityLab" target="_blank">HomeLab - Infrastructure & Security Lab</a></p>
-        </div>
-        
-        <div class="box">
-            <h2>Języki</h2>
-            <ul>
-                <li>Polski - ojczysty</li>
-                <li>Angielski - płynny w mowie i pismie</li>
-                <li>Niemiecki - podstawowy</li>
-            </ul>
+        <div class="cert-card">
+            <span class="cert-badge">Sekurak</span>
+            <h3>Hardening Serwera WWW</h3>
+            <p>Zabezpieczanie infrastruktury serwerowej.</p>
+            <div class="cert-links">
+                <a href="Certyfikaty/Sekurak/EN/HARDENING A WEB SERVER.pdf" target="_blank">English</a>
+                <a href="Certyfikaty/Sekurak/PL/HARDENING SERWERA WWW.pdf" target="_blank">Polski</a>
+            </div>
         </div>
 
-        <div class="box">
-            <h2>Zainteresowania</h2>
-            <ul>
-                <li><strong>Pentesting</strong> - testy bezpieczeństwa systemów i sieci</li>
-                <li><strong>Fotografia</strong> - kreatywne uchwycenie momentów, obróbka zdjęć</li>
-                <li><strong>Motoryzacja</strong> - techniczne aspekty pojazdów, diagnostyka</li>
-                <li><strong>Muzyka</strong> - gra na gitarze, tworzenie muzyki</li>
-                <li><strong>Druk 3D</strong> - projektowanie i tworzenie modeli, obsługa drukarki 3D</li>
-                <li><strong>Modelowanie 3D</strong> - tworzenie modeli w programach CAD / Fusion 360</li>
-            </ul>
+        <div class="cert-card">
+            <span class="cert-badge">Sekurak</span>
+            <h3>Zabbix w akcji</h3>
+            <p>Monitoring infrastruktury IT i usług.</p>
+            <div class="cert-links">
+                <a href="Certyfikaty/Sekurak/EN/ZABBIX IN ACTION.pdf" target="_blank">English</a>
+                <a href="Certyfikaty/Sekurak/PL/ZABBIX W AKCJI.pdf" target="_blank">Polski</a>
+            </div>
         </div>
 
-        <div class="box">
-            <h2>Dodatkowe informacje</h2>
-            <ul>
-                <li>Prawo jazdy kat. B</li>
-                <li>Aktywne rozwijanie umiejętności poprzez projekty własne</li>
-            </ul>
-        </div>
+    </div>
+</section>
 
-        <div class="box">
-            <h2>Kontakt</h2>
-            <p>Email: <a href="mailto:k.herman2020@outlook.com">k.herman2020@outlook.com</a></p>
-            <p>GitHub: <a href="https://github.com/xGrayhowl" target="_blank">xGrayhowl</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/kamil-herman-4585b93a1/" target="_blank">Kamil Herman</a></p>
+<section class="card">
+    <h2>Projekty GitHub</h2>
+
+    <div class="project-grid">
+
+        <div class="project-card">
+            <span class="project-badge">Infrastructure</span>
+            <h3>HomeLab - Infrastructure & Security Lab</h3>
+            <p>
+                Rozbudowane środowisko laboratoryjne obejmujące administrację systemami,
+                konfigurację usług sieciowych, bezpieczeństwo infrastruktury oraz praktyczne
+                wdrażanie rozwiązań serwerowych.
+            </p>
+
+            <div class="project-tech">
+                <span>Linux</span>
+                <span>Networking</span>
+                <span>Security</span>
+                <span>Proxmox</span>
+            </div>
+
+            <div class="project-links">
+                <a href="https://github.com/xGrayhowl/HomeLabInfrastructureAndSecurityLab" target="_blank">
+                    GitHub Repo
+                </a>
+            </div>
         </div>
+    </div>
+</section>
+
+        <section class="card two-column">
+            <div>
+                <h2>Wykształcenie</h2>
+                <p><strong>09.2021 – 04.2026</strong><br>Zespół Szkół Zawodowych nr. 1 w Brzegu<br>Technik Informatyk</p>
+            </div>
+            <div>
+                <h2>Języki</h2>
+                <ul>
+                    <li>Polski – ojczysty</li>
+                    <li>Angielski – płynny</li>
+                    <li>Niemiecki – podstawowy</li>
+                </ul>
+            </div>
+        </section>
 
         <footer>
             <p>&copy; 2026 Kamil "Grayhowl" Herman</p>
         </footer>
     </div>
+
+    <script src="script.js" defer></script>
 </body>
 </html>
